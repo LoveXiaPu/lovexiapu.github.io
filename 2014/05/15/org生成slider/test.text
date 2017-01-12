@@ -1,0 +1,83 @@
+#+TITLE:     Writing Beamer presentations in org-mode
+#+AUTHOR:    Eric S Fraga
+#+EMAIL:     e.fraga@ucl.ac.uk
+#+DATE:      2016-08-12 14:02:14
+#+Latex_class: beamer
+#+latex_class_options: [bigger]
+
+* Introduction
+** A simple slide
+This slide consists of some text with a number of bullet points:
+
+- the first, very @important@, point!
+- the previous point shows the use of the special markup which
+  translates to the Beamer specific /alert/ command for highlighting
+  text.
+
+来个中文
+The above list could be numbered or any other type of list and may
+include sub-lists.
+
+
+#+BEGIN_SRC ditaa :file test.jpg
++---------+
+| cBLU    |
+|    +----+
+|    |cPNK|
++----+----+
+
+#+END_SRC
+
+#+ATTR_LATEX: :width 5cm
+#+RESULTS:
+[[file:test.jpg]]
+
+
+** 发的说法
+#+ATTR_LATEX:
+#+BEGIN_SRC java
+public enum UserType implements EnumType {
+
+        CUSTOMER("客户") {
+            @Override
+            public UserInfo register(String loginName, String loginPwd) {
+                return new UserInfo(new IdCreatorForCustomer().generate(), loginName, loginPwd, CUSTOMER);
+            }
+
+            @Override
+            public BAndCAccount.AccountType getAccountType() {
+                return BAndCAccount.AccountType.CUSTOMER;
+            }
+        }, BUSINESS("商家") {
+            @Override
+            public UserInfo register(String loginName, String loginPwd) {
+                return new UserInfo(new IdCreatorForBusiness().generate(), loginName, loginPwd, BUSINESS);
+            }
+
+            @Override
+            public BAndCAccount.AccountType getAccountType() {
+                return BAndCAccount.AccountType.BUSINESS;
+            }
+        };
+
+        UserType(String name) {
+            this.name = name;
+        }
+
+        private String name;
+
+        public String getName() {
+            return name;
+        }
+
+        public abstract UserInfo register(String loginName, String loginPwd);
+
+        public abstract BAndCAccount.AccountType getAccountType();
+
+    }
+#+END_SRC
+
+
+* 什么
+
+** 哈哈

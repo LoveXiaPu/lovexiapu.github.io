@@ -1,0 +1,253 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="工作, 生活"><title>mysql数据类型 | 夏普牛的博客</title><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/normalize/5.0.0/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/0.6.0/pure-min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/0.6.0/grids-responsive-min.css"><link rel="stylesheet" type="text/css" href="/css/style.css?v=0.0.0"><link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">mysql数据类型</h1><a id="logo" href="/.">夏普牛的博客</a><p class="description"></p></div><div id="nav-menu"><a href="/." class="current"><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div id="layout" class="pure-g"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">mysql数据类型</h1><div class="post-meta">May 21, 2011<span> | </span><span class="category"><a href="/categories/mysql/">mysql</a></span><script src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js" async></script><span id="busuanzi_container_page_pv"> | <span id="busuanzi_value_page_pv"></span><span> Hits</span></span></div><div class="post-content">
+
+
+
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> &#x6570;&#x5B57;</h2>
+<div class="outline-text-2" id="text-1">
+</div><div id="outline-container-sec-1-1" class="outline-3">
+<h3 id="sec-1-1"><span class="section-number-3">1.1</span> &#x6574;&#x6570;</h3>
+<div class="outline-text-3" id="text-1-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col class="left">
+
+<col class="left">
+</colgroup>
+<tbody>
+<tr>
+<td class="left">MySQL&#x6570;&#x636E;&#x7C7B;&#x578B;</td>
+<td class="left">&#x542B;&#x4E49;</td>
+</tr>
+
+<tr>
+<td class="left">tinyint(m)</td>
+<td class="left">1&#x4E2A;&#x5B57;&#x8282;&#x8868;&#x793A;(-128~127)</td>
+</tr>
+
+<tr>
+<td class="left">smallint(m)</td>
+<td class="left">2&#x4E2A;&#x5B57;&#x8282;&#x8868;&#x793A;(-32768~32767)</td>
+</tr>
+
+<tr>
+<td class="left">mediumint(m)</td>
+<td class="left">3&#x4E2A;&#x5B57;&#x8282;&#x8868;&#x793A;(-8388608~8388607)</td>
+</tr>
+
+<tr>
+<td class="left">int(m)</td>
+<td class="left">4&#x4E2A;&#x5B57;&#x8282;&#x8868;&#x793A;(-2147483648~2147483647)</td>
+</tr>
+
+<tr>
+<td class="left">bigint(m)</td>
+<td class="left">8&#x4E2A;&#x5B57;&#x8282;&#x8868;&#x793A;(+-9.22*10&#x7684;18&#x6B21;&#x65B9;)</td>
+</tr>
+</tbody>
+</table>
+<a id="more"></a>
+</div>
+</div>
+
+
+<div id="outline-container-sec-1-2" class="outline-3">
+<h3 id="sec-1-2"><span class="section-number-3">1.2</span> &#x6D6E;&#x70B9;&#x6570;</h3>
+<div class="outline-text-3" id="text-1-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col class="left">
+
+<col class="left">
+</colgroup>
+<tbody>
+<tr>
+<td class="left">MySQL&#x6570;&#x636E;&#x7C7B;&#x578B;</td>
+<td class="left">&#x542B;&#x4E49;</td>
+</tr>
+
+<tr>
+<td class="left">float(m,d)</td>
+<td class="left">&#x5355;&#x7CBE;&#x5EA6;&#x6D6E;&#x70B9;&#x578B;&#xFF0C;8&#x4F4D;&#x7CBE;&#x5EA6;(4&#x5B57;&#x8282;),m&#x662F;&#x5341;&#x8FDB;&#x5236;&#x6570;&#x5B57;&#x7684;&#x603B;&#x4E2A;&#x6570;&#xFF0C;d&#x662F;&#x5C0F;&#x6570;&#x70B9;&#x540E;&#x9762;&#x7684;&#x6570;&#x5B57;&#x4E2A;&#x6570;</td>
+</tr>
+
+<tr>
+<td class="left">double(m,d)</td>
+<td class="left">&#x53CC;&#x7CBE;&#x5EA6;&#x6D6E;&#x70B9;&#x578B;&#xFF0C;16&#x4F4D;&#x7CBE;&#x5EA6;(8&#x5B57;&#x8282;)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-sec-1-3" class="outline-3">
+<h3 id="sec-1-3"><span class="section-number-3">1.3</span> &#x6B63;&#x70B9;&#x6570;</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+decimal(m,d) &#x5B9A;&#x70B9;&#x7C7B;&#x578B;&#x6D6E;&#x70B9;&#x578B;&#x5728;&#x6570;&#x636E;&#x5E93;&#x4E2D;&#x5B58;&#x653E;&#x7684;&#x662F;&#x8FD1;&#x4F3C;&#x503C;&#xFF0C;&#x800C;&#x5B9A;&#x70B9;&#x7C7B;&#x578B;&#x5728;&#x6570;&#x636E;&#x5E93;&#x4E2D;&#x5B58;&#x653E;&#x7684;&#x662F;&#x7CBE;&#x786E;&#x503C;&#x3002;&#x53C2;&#x6570;m&#x662F;&#x5B9A;&#x70B9;&#x7C7B;&#x578B;&#x6570;&#x5B57;&#x7684;&#x6700;&#x5927;&#x4E2A;&#x6570;&#xFF08;&#x7CBE;&#x5EA6;&#xFF09;&#xFF0C;&#x8303;&#x56F4;&#x4E3A;0~65&#xFF0C;d&#x5C0F;&#x6570;&#x70B9;&#x53F3;&#x4FA7;&#x6570;&#x5B57;&#x7684;&#x4E2A;&#x6570;&#xFF0C;&#x8303;&#x56F4;&#x4E3A;0~30&#xFF0C;&#x4F46;&#x4E0D;&#x5F97;&#x8D85;&#x8FC7;m&#x3002;&#x5BF9;&#x5B9A;&#x70B9;&#x6570;&#x7684;&#x8BA1;&#x7B97;&#x80FD;&#x7CBE;&#x786E;&#x5230;65&#x4F4D;&#x6570;&#x5B57;&#x3002;
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> &#x5B57;&#x7B26;&#x4E32;</h2>
+<div class="outline-text-2" id="text-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col class="left">
+
+<col class="left">
+</colgroup>
+<tbody>
+<tr>
+<td class="left">MySQL&#x6570;&#x636E;&#x7C7B;&#x578B;</td>
+<td class="left">&#x542B;&#x4E49;</td>
+</tr>
+
+<tr>
+<td class="left">char(n)</td>
+<td class="left">&#x56FA;&#x5B9A;&#x957F;&#x5EA6;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x6700;&#x591A;255&#x4E2A;&#x5B57;&#x8282; &#xFF0C;&#x6839;&#x636E;&#x7F16;&#x7801;&#x4E0D;&#x540C;&#xFF0C;&#x80FD;&#x591F;&#x5B58;&#x50A8;&#x7684;&#x5B57;&#x7B26;&#x6570;&#x4E5F;&#x4E0D;&#x540C;&#x3002;</td>
+</tr>
+
+<tr>
+<td class="left">varchar(n)</td>
+<td class="left">&#x56FA;&#x5B9A;&#x957F;&#x5EA6;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x6700;&#x591A;65535&#x4E2A;&#x5B57;&#x8282;&#xFF0C;&#x6839;&#x636E;&#x7F16;&#x7801;&#x4E0D;&#x540C;&#xFF0C;&#x80FD;&#x591F;&#x5B58;&#x50A8;&#x7684;&#x5B57;&#x7B26;&#x6570;&#x4E5F;&#x4E0D;&#x540C;&#x3002;&#x6B64;&#x7C7B;&#x578B;&#x6839;&#x636E;&#x8BBE;&#x7F6E;&#x6700;&#x540E;&#x7684;&#x51E0;&#x4E2A;&#x5B57;&#x8282;&#x9700;&#x8981;&#x4FDD;&#x5B58;&#x503C;&#x7684;&#x5177;&#x4F53;&#x957F;&#x5EA6;&#x3002;&#x5982;&#x679C;&#x58F0;&#x660E;&#x4E3A;varchar&#xFF08;255&#xFF09;&#xFF0C;&#x90A3;&#x4E48;&#x6700;&#x540E;&#x7684;&#x4E00;&#x4E2A;&#x5B57;&#x8282;&#x7528;&#x4E8E;&#x5B58;&#x50A8;&#x957F;&#x5EA6;&#xFF0C;&#x5982;&#x679C;&#x58F0;&#x660E;&#x4E3A;varchar&#xFF08;256&#xFF09;&#xFF0C;&#x90A3;&#x4E48;&#x56E0;&#x4E3A;&#x4E00;&#x4E2A;&#x5B57;&#x8282;&#x5DF2;&#x7ECF;&#x65E0;&#x6CD5;&#x4FDD;&#x5B58;&#xFF0C;&#x56E0;&#x6B64;&#x4F7F;&#x7528;&#x4E24;&#x4E2A;&#x5B57;&#x8282;&#x6765;&#x4FDD;&#x5B58;&#x957F;&#x5EA6;&#x3002;&#x5BF9;&#x4E8E;&#x6BCF;&#x4E2A;&#x8BB0;&#x5F55;&#xFF0C;mysql&#x9700;&#x8981;&#x4F7F;&#x7528;&#x4E00;&#x4E2A;&#x5355;&#x72EC;&#x7684;&#x5B57;&#x8282;&#x6765;&#x4FDD;&#x5B58;&#x5F53;&#x524D;&#x8BB0;&#x5F55;&#x4E2D;&#x7684;null&#x503C;&#xFF0C;&#x5982;&#x679C;&#x60F3;&#x8981;&#x8282;&#x7701;&#x6B64;null&#x503C;&#xFF0C;&#x9700;&#x8981;&#x8BB0;&#x5F55;&#x4E2D;&#x6240;&#x6709;&#x7684;&#x5217;&#x90FD;&#x4E3A;not null&#x3002;</td>
+</tr>
+
+<tr>
+<td class="left">tinytext</td>
+<td class="left">&#x53EF;&#x53D8;&#x957F;&#x5EA6;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x6700;&#x591A;255&#x4E2A;&#x5B57;&#x8282;</td>
+</tr>
+
+<tr>
+<td class="left">text</td>
+<td class="left">&#x53EF;&#x53D8;&#x957F;&#x5EA6;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x6700;&#x591A;65535&#x4E2A;&#x5B57;&#x8282;</td>
+</tr>
+
+<tr>
+<td class="left">mediumtext</td>
+<td class="left">&#x53EF;&#x53D8;&#x957F;&#x5EA6;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x6700;&#x591A;2&#x7684;24&#x6B21;&#x65B9;-1&#x4E2A;&#x5B57;&#x8282;</td>
+</tr>
+
+<tr>
+<td class="left">longtext</td>
+<td class="left">&#x53EF;&#x53D8;&#x957F;&#x5EA6;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x6700;&#x591A;2&#x7684;32&#x6B21;&#x65B9;-1&#x4E2A;&#x5B57;&#x8282;</td>
+</tr>
+</tbody>
+</table>
+<p>
+&#x4E8C;&#x8FDB;&#x5236;&#x6570;&#x636E;(xxxBlob)
+XXXBLOB&#x548C;xxxtext&#x662F;&#x5BF9;&#x5E94;&#x7684;&#xFF0C;&#x4E0D;&#x8FC7;&#x5B58;&#x50A8;&#x65B9;&#x5F0F;&#x4E0D;&#x540C;&#xFF0C;xxxTEXT&#x662F;&#x4EE5;&#x6587;&#x672C;&#x65B9;&#x5F0F;&#x5B58;&#x50A8;&#x7684;&#xFF0C;&#x5982;&#x679C;&#x5B58;&#x50A8;&#x82F1;&#x6587;&#x7684;&#x8BDD;&#x533A;&#x5206;&#x5927;&#x5C0F;&#x5199;&#xFF0C;&#x800C;xxxBlob&#x662F;&#x4EE5;&#x4E8C;&#x8FDB; &#x5236;&#x65B9;&#x5F0F;&#x5B58;&#x50A8;&#x7684;&#xFF0C;&#x4E0D;&#x533A;&#x5206;&#x5927;&#x5C0F;&#x5199;&#x3002;xxxBlob&#x5B58;&#x50A8;&#x7684;&#x6570;&#x636E;&#x53EA;&#x80FD;&#x6574;&#x4F53;&#x8BFB;&#x51FA;&#x3002;xxxTEXT&#x53EF;&#x4EE5;&#x6307;&#x5B9A;&#x5B57;&#x7B26;&#x96C6;&#xFF0C;xxxblob&#x4E0D;&#x7528;&#x6307;&#x5B9A;&#x5B57;&#x7B26;&#x96C6;&#x3002;
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> &#x65E5;&#x671F;&#x65F6;&#x95F4;</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+timestamp&#x6BD4;&#x8F83;&#x7279;&#x6B8A;&#xFF0C;&#x5982;&#x679C;&#x5B9A;&#x4E49;&#x4E00;&#x4E2A;&#x5B57;&#x6BB5;&#x7684;&#x7C7B;&#x578B;&#x4E3A;timestamp&#xFF0C;&#x8FD9;&#x4E2A;&#x5B57;&#x6BB5;&#x7684;&#x65F6;&#x95F4;&#x4F1A;&#x5728;&#x5176;&#x4ED6;&#x5B57;&#x6BB5;&#x4FEE;&#x6539;&#x7684;&#x65F6;&#x5019;&#x81EA;&#x52A8;&#x5237;&#x65B0;&#x3002;&#x6240;&#x4EE5;&#x8FD9;&#x4E2A;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x7684;&#x5B57;&#x6BB5;&#x53EF;&#x4EE5;&#x5B58;&#x653E;&#x8FD9;&#x6761;&#x8BB0;&#x5F55;&#x6700;&#x540E;&#x88AB;&#x4FEE;&#x6539;&#x7684;&#x65F6;&#x95F4;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x771F;&#x6B63;&#x6765;&#x7684;&#x5B58;&#x653E;&#x65F6;&#x95F4;&#x3002;
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col class="left">
+
+<col class="left">
+</colgroup>
+<tbody>
+<tr>
+<td class="left">&#x7C7B;&#x578B;&#x540D;</td>
+<td class="left">&#x63CF;&#x8FF0;</td>
+</tr>
+
+<tr>
+<td class="left">date</td>
+<td class="left">&#x65E5;&#x671F;&apos;2008-12-2&apos;</td>
+</tr>
+
+<tr>
+<td class="left">time</td>
+<td class="left">&#x65F6;&#x95F4;&apos;12:25:36&apos;</td>
+</tr>
+
+<tr>
+<td class="left">datetime</td>
+<td class="left">&#x65E5;&#x671F;&#x65F6;&#x95F4;&apos;2008-12-2 22:06:44&apos;</td>
+</tr>
+
+<tr>
+<td class="left">timestamp</td>
+<td class="left">&#x4E0D;&#x56FA;&#x5B9A;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4"><span class="section-number-2">4</span> &#x6570;&#x636E;&#x7C7B;&#x578B;&#x7684;&#x5C5E;&#x6027;</h2>
+<div class="outline-text-2" id="text-4">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col class="left">
+
+<col class="left">
+</colgroup>
+<tbody>
+<tr>
+<td class="left">MySQL&#x5173;&#x952E;&#x5B57;</td>
+<td class="left">&#x542B;&#x4E49;</td>
+</tr>
+
+<tr>
+<td class="left">NULL</td>
+<td class="left">&#x6570;&#x636E;&#x5217;&#x53EF;&#x5305;&#x542B;NULL&#x503C;</td>
+</tr>
+
+<tr>
+<td class="left">NOT NULL</td>
+<td class="left">&#x6570;&#x636E;&#x5217;&#x4E0D;&#x5141;&#x8BB8;&#x5305;&#x542B;NULL&#x503C;</td>
+</tr>
+
+<tr>
+<td class="left">DEFAULT xxx</td>
+<td class="left">&#x9ED8;&#x8BA4;&#x503C;&#xFF0C;&#x5982;&#x679C;&#x63D2;&#x5165;&#x8BB0;&#x5F55;&#x7684;&#x65F6;&#x5019;&#x6CA1;&#x6709;&#x6307;&#x5B9A;&#x503C;&#xFF0C;&#x5C06;&#x53D6;&#x8FD9;&#x4E2A;&#x9ED8;&#x8BA4;&#x503C;</td>
+</tr>
+
+<tr>
+<td class="left">PRIMARY KEY</td>
+<td class="left">&#x4E3B;&#x952E;</td>
+</tr>
+
+<tr>
+<td class="left">AUTO<sub>INCREMENT</sub></td>
+<td class="left">&#x9012;&#x589E;&#xFF0C;&#x5982;&#x679C;&#x63D2;&#x5165;&#x8BB0;&#x5F55;&#x7684;&#x65F6;&#x5019;&#x6CA1;&#x6709;&#x6307;&#x5B9A;&#x503C;&#xFF0C;&#x5219;&#x5728;&#x4E0A;&#x4E00;&#x6761;&#x8BB0;&#x5F55;&#x7684;&#x503C;&#x4E0A;&#x52A0;1&#xFF0C;&#x4EC5;&#x9002;&#x7528;&#x4E8E;&#x6574;&#x6570;&#x7C7B;&#x578B;</td>
+</tr>
+
+<tr>
+<td class="left">UNSIGNED</td>
+<td class="left">&#x65E0;&#x7B26;&#x53F7;</td>
+</tr>
+
+<tr>
+<td class="left">CHARACTER SET name</td>
+<td class="left">&#x6307;&#x5B9A;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x96C6;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div><script type="text/javascript" src="/js/share.js?v=0.0.0" async></script><a data-url="http://yoursite.com/2011/05/21/mysql数据类型/" data-id="cixu08qtd0011bi0oi5vgt4aw" class="article-share-link">分享到</a><div class="tags"><a href="/tags/mysql/">mysql</a><a href="/tags/datatype/">datatype</a></div><div class="post-nav"><a href="/2011/06/03/mysql索引/" class="pre">mysql索引</a><a href="/2011/05/07/时间复杂度&amp;空间复杂度/" class="next">时间复杂度&amp;空间复杂度</a></div></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><form action="//www.google.com/search" method="get" accept-charset="utf-8" target="_blank" class="search-form"><input type="text" name="q" maxlength="20" placeholder="Search"/><input type="hidden" name="sitesearch" value="http://yoursite.com"/></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/charles/">charles</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/clojure/">clojure</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/druid/">druid</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/emacs/">emacs</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/exception/">exception</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/freemarker/">freemarker</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/hibernate/">hibernate</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/html/">html</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/java/">java</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/javascript/">javascript</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/jenkins/">jenkins</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/joda/">joda</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/linux/">linux</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/mac/">mac</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/maven/">maven</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/mysql/">mysql</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/redis/">redis</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/rz/">rz</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/springmvc/">springmvc</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/sql/">sql</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/加密解密/">加密解密</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/性能监控/">性能监控</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/数据结构/">数据结构</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/算法/">算法</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/网络/">网络</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/rz/" style="font-size: 15px;">rz</a> <a href="/tags/linux/" style="font-size: 15px;">linux</a> <a href="/tags/exception/" style="font-size: 15px;">exception</a> <a href="/tags/java/" style="font-size: 15px;">java</a> <a href="/tags/freemarker/" style="font-size: 15px;">freemarker</a> <a href="/tags/elisp/" style="font-size: 15px;">elisp</a> <a href="/tags/interactive/" style="font-size: 15px;">interactive</a> <a href="/tags/emacs/" style="font-size: 15px;">emacs</a> <a href="/tags/encryption/" style="font-size: 15px;">encryption</a> <a href="/tags/maven/" style="font-size: 15px;">maven</a> <a href="/tags/clojure/" style="font-size: 15px;">clojure</a> <a href="/tags/org-mode/" style="font-size: 15px;">org-mode</a> <a href="/tags/性能监控/" style="font-size: 15px;">性能监控</a> <a href="/tags/mac/" style="font-size: 15px;">mac</a> <a href="/tags/vpn/" style="font-size: 15px;">vpn</a> <a href="/tags/orgmode/" style="font-size: 15px;">orgmode</a> <a href="/tags/slider/" style="font-size: 15px;">slider</a> <a href="/tags/leiningen/" style="font-size: 15px;">leiningen</a> <a href="/tags/network/" style="font-size: 15px;">network</a> <a href="/tags/ip/" style="font-size: 15px;">ip</a> <a href="/tags/广播/" style="font-size: 15px;">广播</a> <a href="/tags/路由/" style="font-size: 15px;">路由</a> <a href="/tags/redis/" style="font-size: 15px;">redis</a> <a href="/tags/mail/" style="font-size: 15px;">mail</a> <a href="/tags/mu4e/" style="font-size: 15px;">mu4e</a> <a href="/tags/mysql常用语句/" style="font-size: 15px;">mysql常用语句</a> <a href="/tags/mysql/" style="font-size: 15px;">mysql</a> <a href="/tags/时间复杂度/" style="font-size: 15px;">时间复杂度</a> <a href="/tags/空间复杂度/" style="font-size: 15px;">空间复杂度</a> <a href="/tags/数据结构/" style="font-size: 15px;">数据结构</a> <a href="/tags/hibernate/" style="font-size: 15px;">hibernate</a> <a href="/tags/缓存/" style="font-size: 15px;">缓存</a> <a href="/tags/html定位/" style="font-size: 15px;">html定位</a> <a href="/tags/file/" style="font-size: 15px;">file</a> <a href="/tags/permission/" style="font-size: 15px;">permission</a> <a href="/tags/datatype/" style="font-size: 15px;">datatype</a> <a href="/tags/index/" style="font-size: 15px;">index</a> <a href="/tags/sql优化/" style="font-size: 15px;">sql优化</a> <a href="/tags/sql/" style="font-size: 15px;">sql</a> <a href="/tags/wirelessnetwork/" style="font-size: 15px;">wirelessnetwork</a> <a href="/tags/javascript/" style="font-size: 15px;">javascript</a> <a href="/tags/ajax/" style="font-size: 15px;">ajax</a> <a href="/tags/dom/" style="font-size: 15px;">dom</a> <a href="/tags/bom/" style="font-size: 15px;">bom</a> <a href="/tags/function/" style="font-size: 15px;">function</a> <a href="/tags/class/" style="font-size: 15px;">class</a> <a href="/tags/charles/" style="font-size: 15px;">charles</a> <a href="/tags/springmvc/" style="font-size: 15px;">springmvc</a> <a href="/tags/queue/" style="font-size: 15px;">queue</a> <a href="/tags/db/" style="font-size: 15px;">db</a> <a href="/tags/joda/" style="font-size: 15px;">joda</a> <a href="/tags/druid/" style="font-size: 15px;">druid</a> <a href="/tags/jenkinsclient/" style="font-size: 15px;">jenkinsclient</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最新文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/08/30/linux服务器问题集/">linux服务器问题集</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/03/clojure/">clojure基础知识</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/09/16/linux性能监控/">linux性能监控</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/08/01/mac系统下自动重连vpn脚本/">mac系统下自动重连vpn脚本</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/07/18/性能测试/">性能测试</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/06/30/emacs-mail/">emacs-mail</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/06/12/并发测试/">并发测试数据生成</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/05/19/leiningen/">leiningen</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/05/08/elisp/">elisp基础知识</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/04/02/elispinteractive/">elispinteractive的用法</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> 友情链接</i></div></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">© <a href="/." rel="nofollow">夏普牛的博客.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a id="rocket" href="#top" class="show"></a><script type="text/javascript" src="/js/totop.js?v=0.0.0" async></script><script type="text/javascript" src="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.pack.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=0.0.0" async></script><link rel="stylesheet" type="text/css" href="/css/jquery.fancybox.css?v=0.0.0"><script type="text/javascript" src="/js/codeblock-resizer.js?v=0.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=0.0.0"></script></div></body></html>
