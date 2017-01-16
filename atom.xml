@@ -2258,9 +2258,9 @@ h   + &#x5982;&#x679C;&#x6709;&#x5BA2;&#x6237;&#x7AEF;&#xFF0C;&#x5E94;&#x8BE5;&#
       <category term="exception" scheme="http://yoursite.com/categories/exception/"/>
     
     
-      <category term="java" scheme="http://yoursite.com/tags/java/"/>
-    
       <category term="exception" scheme="http://yoursite.com/tags/exception/"/>
+    
+      <category term="java" scheme="http://yoursite.com/tags/java/"/>
     
   </entry>
   
@@ -3078,9 +3078,9 @@ Pythons are free today!
       <category term="freemarker" scheme="http://yoursite.com/categories/freemarker/"/>
     
     
-      <category term="freemarker" scheme="http://yoursite.com/tags/freemarker/"/>
-    
       <category term="java" scheme="http://yoursite.com/tags/java/"/>
+    
+      <category term="freemarker" scheme="http://yoursite.com/tags/freemarker/"/>
     
   </entry>
   
