@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2014/08/12/exception/</loc>
+    
+    <lastmod>2017-01-17T09:21:23.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2015/04/20/clojure/</loc>
+    
+    <lastmod>2017-01-17T09:21:03.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2011/10/08/datastructure/</loc>
     
-    <lastmod>2017-01-16T07:51:18.000Z</lastmod>
+    <lastmod>2017-01-17T08:22:01.000Z</lastmod>
     
   </url>
   
@@ -82,13 +96,6 @@
     <loc>http://yoursite.com/2016/08/30/linux%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%97%AE%E9%A2%98%E9%9B%86/</loc>
     
     <lastmod>2017-01-12T07:11:11.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2014/08/12/exception/</loc>
-    
-    <lastmod>2017-01-12T07:10:48.000Z</lastmod>
     
   </url>
   
@@ -299,13 +306,6 @@
     <loc>http://yoursite.com/2012/03/11/%E5%9C%A8centos6.4%E4%B8%AD%E5%88%A9%E7%94%A8wpa_supplicant%E8%AE%BE%E7%BD%AE%E6%97%A0%E7%BA%BF%E7%BD%91%E7%BB%9C/</loc>
     
     <lastmod>2017-01-11T02:55:33.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/04/03/clojure/</loc>
-    
-    <lastmod>2017-01-09T02:31:46.000Z</lastmod>
     
   </url>
   
