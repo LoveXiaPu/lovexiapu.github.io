@@ -1,0 +1,345 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="夏普牛的工作, 生活"><meta name="keywords" content="夏普牛, java, clojure, 技术博客，数据结构，架构, xiapun.com, www.xiapun.com, xiapun"><meta name="author" content="夏普牛"><meta name="baidu-site-verification" content="VibRI5GACk"><title>orgmode备忘 | 夏普牛的博客</title><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/normalize/5.0.0/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/0.6.0/pure-min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/0.6.0/grids-responsive-min.css"><link rel="stylesheet" type="text/css" href="/css/style.css?v=0.0.0"><link rel="stylesheet" type="text/css" href="/css/custom.css?v=0.0.0"><link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">orgmode备忘</h1><a id="logo" href="/.">夏普牛的博客</a><p class="description"></p></div><div id="nav-menu"><a href="/." class="current"><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div id="layout" class="pure-g"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">orgmode备忘</h1><div class="post-meta">Mar 13, 2015<span> | </span><span class="category"><a href="/categories/emacs/">emacs</a></span><script src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js" async></script><span id="busuanzi_container_page_pv"> | <span id="busuanzi_value_page_pv"></span><span> Hits</span></span></div><a data-thread-key="orgmode.html" href="/orgmode.html#comments" class="ds-thread-count"></a><div class="post-content">
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> babel</h2>
+<div class="outline-text-2" id="text-1">
+</div><div id="outline-container-sec-1-1" class="outline-3">
+<h3 id="sec-1-1"><span class="section-number-3">1.1</span> &#x8BBE;&#x7F6E;plantuml&#x751F;&#x6210;&#x7684;&#x56FE;&#x7247;&#x5728;html&#x53CA;pdf&#x4E2D;&#x7684;size</h3>
+<div class="outline-text-3" id="text-1-1">
+<div class="org-src-container">
+
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">#+BEGIN_SRC plantuml :file testffu :width 200 :height 200</span><br><span class="line"></span><br><span class="line">Alice-&gt;Bob : hello</span><br><span class="line">note left: this is a first note</span><br><span class="line"></span><br><span class="line">Bob-&gt;Alice : ok</span><br><span class="line">note right: this is another note</span><br><span class="line"></span><br><span class="line">Bob-&gt;Bob : I am thinking</span><br><span class="line">note left</span><br><span class="line">	a note</span><br><span class="line">	can also be defined</span><br><span class="line">	on several lines</span><br><span class="line">end note</span><br><span class="line"></span><br><span class="line">#+ENpD_SRC</span><br><span class="line"></span><br><span class="line">#+ATTR_HTML: :width 1000</span><br><span class="line">#+ATTR_LATEX: :width 1cm</span><br><span class="line">#+RESULTS:</span><br><span class="line">[[file:testffu.svg]]</span><br></pre></td></tr></table></figure>
+</div>
+<a id="more"></a>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> plantuml &#x793A;&#x4F8B;</h2>
+<div class="outline-text-2" id="text-2">
+</div><div id="outline-container-sec-2-1" class="outline-3">
+<h3 id="sec-2-1"><span class="section-number-3">2.1</span> &#x5B9E;&#x4F53;</h3>
+<div class="outline-text-3" id="text-2-1">
+<div class="org-src-container">
+
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">CLASS &#x57FA;&#x91D1; {
+&#x51C0;&#x503C;
+
+}
+CLASS &#x6295;&#x8D44;&#x4EBA;{
+&#x767B;&#x9646;ID
+&#x624B;&#x673A;
+&#x90AE;&#x7BB1;
+&#x767B;&#x9646;&#x5BC6;&#x7801;
+&#x652F;&#x4ED8;&#x5BC6;&#x7801;
+
+}
+CLASS &#x57FA;&#x91D1;&#x8D26;&#x6237; {
+ &#x6295;&#x8D44;&#x4EBA;
+}
+CLASS &#x94F6;&#x884C;&#x5361; {
+ &#x57FA;&#x91D1;&#x8D26;&#x6237;
+}
+
+CLASS &#x652F;&#x4ED8;&#x6E20;&#x9053; {
+ &#x652F;&#x4ED8;
+}
+
+CLASS &#x6536;&#x94F6;&#x53F0; {
+  &#x652F;&#x4ED8;&#x65B9;&#x5F0F;&#x9009;&#x62E9;
+&#x4EA4;&#x6613;&#x5BC6;&#x7801;&#x8F93;&#x5165;
+&#x7533;&#x8D2D;&#x6309;&#x94AE;
+
+}
+
+CLASS &#x6279;&#x91CF;&#x7533;&#x8D2D;&#x751F;&#x6210;&#x5668;{
+}
+
+CLASS &#x8D39;&#x7528;&#x8BA1;&#x7B97;&#x5668; {
+}
+
+
+
+CLASS &#x7533;&#x8D2D; {
+  &#x652F;&#x4ED8;&#x7533;&#x8BF7;()
+  &#x8FD4;&#x56DE;&#x6210;&#x529F;&#x4FE1;&#x606F;EEEW()
+&#x7533;&#x8D2D;&#x7533;&#x8BF7;&#x6279;&#x91CF;&#x751F;&#x6210;()
+&#x8BA1;&#x7B97;&#x8D39;&#x7528;()
+&#x53D1;&#x9001;&#x6279;&#x91CF;&#x7533;&#x8BF7;()
+&#x63A5;&#x6536;&#x4EA4;&#x6613;&#x7533;&#x8BF7;&#x6279;&#x91CF;&#x786E;&#x8BA4;, &#x8FDB;&#x884C;&#x5185;&#x90E8;&#x5904;&#x7406;()
+
+}
+
+
+CLASS &#x5907;&#x4ED8;&#x91D1; {
+
+}
+
+CLASS &#x8D39;&#x7528;{
+&#x7BA1;&#x7406;&#x8D39;
+&#x6258;&#x7BA1;&#x8D39;
+&#x7533;&#x8D2D;&#x8D39;
+&#x8D4E;&#x56DE;&#x8D39;
+
+}
+NOTE LEFT OF &#x8D39;&#x7528;
+&#x7533;&#x8D2D;&#x8D39;,&#x56DE;&#x8D39;
+2&#x9009;&#x4E00;
+
+END NOTE
+
+
+
+
+&#x57FA;&#x91D1;&#x8D26;&#x6237; *-&gt; &#x6295;&#x8D44;&#x4EBA;
+&#x94F6;&#x884C;&#x5361; *-&gt; &#x57FA;&#x91D1;&#x8D26;&#x6237;</span><br></pre></td></tr></table></figure>
+</div>
+
+<p>
+&#x751F;&#x6210;&#x7684;&#x7ED3;&#x679C;&#x5982;&#x4E0B;:
+</p>
+
+<div class="figure">
+<p><img src="/2015/03/13/orgmode/48915t2J.png" alt="48915t2J.png" width="500">
+</p>
+</div>
+</div>
+</div>
+
+
+
+<div id="outline-container-sec-2-2" class="outline-3">
+<h3 id="sec-2-2"><span class="section-number-3">2.2</span> &#x987A;&#x5E8F;&#x56FE;</h3>
+<div class="outline-text-3" id="text-2-2">
+<div class="org-src-container">
+
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">Alice-&gt;Bob : hello
+note left: this is a first note
+
+Bob-&gt;Alice : ok
+note right: this is another note
+
+Bob-&gt;Bob : I am thinking
+note left
+	a note
+	can also be defined
+	on several lines
+end note</span><br></pre></td></tr></table></figure>
+</div>
+
+<p>
+&#x751F;&#x6210;&#x7684;&#x7ED3;&#x679C;&#x5982;&#x4E0B;:
+</p>
+
+<div class="figure">
+<p><img src="/2015/03/13/orgmode/48915upo.png" alt="48915upo.png" width="500">
+</p>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-sec-2-3" class="outline-3">
+<h3 id="sec-2-3"><span class="section-number-3">2.3</span> &#x6D41;&#x7A0B;&#x56FE;</h3>
+<div class="outline-text-3" id="text-2-3">
+<div class="org-src-container">
+
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">start
+:&#x5BA2;&#x6237;&#x586B;&#x5199;&#x57FA;&#x672C;&#x4FE1;&#x606F;;
+:&#x8C03;&#x7528;&#x65B0;&#x6D6A;&#x5185;&#x90E8;&#x9ED1;&#x540D;&#x5355;;
+:&#x8C03;&#x7528;&#x524D;&#x6D77;&#x5F81;&#x4FE1;&#x9ED1;&#x540D;&#x5355;;
+:&#x8C03;&#x7528;&#x540C;&#x76FE;;
+:&#x8C03;&#x7528;NCIIC&#x6570;&#x636E;&#x5E93;&#x3002;&#x4FDD;&#x7559;&#x67E5;&#x8BE2;&#x7684;&#x7ED3;&#x679C;&#x53CA;&#x50A8;&#x5B58;&#x67E5;&#x8BE2;&#x5230;&#x7684;&#x7167;&#x7247;;
+:&#x94F6;&#x884C;&#x5361;&#x8981;&#x7D20;&#x9A8C;&#x8BC1;;
+:&#x89C4;&#x5219;&#x5F15;&#x64CE;&#x53D8;&#x91CF;&#x8F93;&#x5165;&#x51C6;&#x5907;;
+:&#x89C4;&#x5219;&#x5F15;&#x64CE;;
+If (&#x89C4;&#x5219;&#x5F15;&#x64CE;&#x8F93;&#x51FA;&#x53D8;&#x91CF;&#xFF1A;workflow code= reject) then (yes)
+  :&#x5FAE;&#x4FE1;&#x7AEF;&#x663E;&#x793A;&#xFF1A;&#x5C0A;&#x656C;&#x7684;&#x5BA2;&#x6237;&#x4F60;&#x6682;&#x65F6;&#x4E0D;&#x7B26;&#x5408;&#x8D37;&#x6B3E;&#x7533;&#x8BF7;&#x6761;&#x4EF6;;
+else (no)
+:&#x8F93;&#x5165;&#x4EA7;&#x54C1;&#x53CA;&#x4E2A;&#x4EBA;&#x8865;&#x5145;&#x4FE1;&#x606F;;
+endif
+note right
+ &#x5FC5;&#x8981;&#x5185;&#x5BB9;:
+1. &#x624B;&#x673A;&#x53F7;
+2. &#x624B;&#x673A;&#x9A8C;&#x8BC1;&#x7801;
+3. &#x767B;&#x9646;&#x5BC6;&#x7801;
+end note
+
+:&#x524D;&#x6D77;&#x597D;&#x4FE1;&#x5E38;&#x8D37;&#x5BA2;;
+:&#x524D;&#x6D77;&#x597D;&#x4FE1;&#x5EA6;&#x8BC4;&#x4F30;;
+:&#x524D;&#x6D77;&#x5730;&#x5740;&#x901A;&#x9A8C;&#x8BC1;;
+:&#x89C4;&#x5219;&#x5F15;&#x64CE;&#x53D8;&#x91CF;&#x8F93;&#x5165;&#x51C6;&#x5907;;
+:&#x89C4;&#x5219;&#x5F15;&#x64CE;;
+If (&#x89C4;&#x5219;&#x5F15;&#x64CE;&#x8F93;&#x51FA;&#x53D8;&#x91CF;:workflow code= reject) then (&#x662F;)
+ :&#x8BA1;&#x7B97;&#x63D0;&#x4EA4;&#x7533;&#x8BF7;&#x5355;&#x5F53;&#x524D;&#x7684;&#x65F6;&#x95F4;&#xFF0C;5&#x5206;&#x949F;&#x540E;&#x628A;&#x5BA1;&#x6279;&#x7ED3;&#x679C;&#x663E;&#x793A;&#x81F3;&#x5FAE;&#x4FE1;&#x7AEF;;
+else (&#x5426;)
+:&#x7167;&#x7247;&#x68C0;&#x67E5;&#xFF1A;&#x5305;&#x62EC;NCIIC&#x7167;&#x7247;&#x53CA;&#x5BA2;&#x6237;&#x4E0A;&#x4F20;&#x7684;&#x7167;&#x7247;;
+endif
+If (&#x89C4;&#x5219;&#x5F15;&#x64CE;&#x8F93;&#x51FA;&#x53D8;&#x91CF;:workflow code= reject) then (yes)
+  :&#x5FAE;&#x4FE1;&#x7AEF;&#x663E;&#x793A;&#xFF1A;&#x5C0A;&#x656C;&#x7684;&#x5BA2;&#x6237;&#x4F60;&#x6682;&#x65F6;&#x4E0D;&#x7B26;&#x5408;&#x8D37;&#x6B3E;&#x7533;&#x8BF7;&#x6761;&#x4EF6;;
+:&#x8BA1;&#x7B97;&#x63D0;&#x4EA4;&#x7533;&#x8BF7;&#x5355;&#x5F53;&#x524D;&#x7684;&#x65F6;&#x95F4;&#xFF0C;5&#x5206;&#x949F;&#x540E;&#x628A;&#x5BA1;&#x6279;&#x7ED3;&#x679C;&#x663E;&#x793A;&#x81F3;&#x5FAE;&#x4FE1;&#x7AEF;;
+stop
+else (no)
+:&#x7167;&#x7247;&#x68C0;&#x67E5;&#xFF1A;&#x5305;&#x62EC;NCIIC&#x7167;&#x7247;&#x53CA;&#x5BA2;&#x6237;&#x4E0A;&#x4F20;&#x7684;&#x7167;&#x7247;;
+
+
+If (&#x68C0;&#x67E5;&#x7ED3;&#x679C;&#x662F;&#x5426;&#x6709;&#x53EF;&#x7591;) then (&#x662F;&#xFF0C;NCIIC&#x7167;&#x7247;&#x4E0D;&#x4E00;&#x81F4;&#x6216;&#x5BA1;&#x6838;&#x4EBA;&#x5458;&#x70B9;&#x51FB;&#x201C;&#x8F6C;&#x53CD;&#x6B3A;&#x8BC8;&#x201D;)
+  :&#x5FAE;&#x4FE1;&#x7AEF;&#x663E;&#x793A;&#xFF1A;&#x5C0A;&#x656C;&#x7684;&#x5BA2;&#x6237;&#x4F60;&#x6682;&#x65F6;&#x4E0D;&#x7B26;&#x5408;&#x8D37;&#x6B3E;&#x7533;&#x8BF7;&#x6761;&#x4EF6;;
+else (&#x65E0;&#x53EF;&#x7591;)
+:&#x8BA1;&#x7B97;&#x63D0;&#x4EA4;&#x7533;&#x8BF7;&#x5355;&#x5F53;&#x524D;&#x7684;&#x65F6;&#x95F4;&#xFF0C;
+5&#x5206;&#x949F;&#x540E;&#x628A;&#x5BA1;&#x6279;&#x7ED3;&#x679C;&#x663E;&#x793A;&#x81F3;&#x5FAE;&#x4FE1;&#x7AEF;;
+:&#x7167;&#x7247;&#x68C0;&#x67E5;&#xFF1A;&#x5305;&#x62EC;NCIIC&#x7167;&#x7247;&#x53CA;&#x5BA2;&#x6237;&#x4E0A;&#x4F20;&#x7684;&#x7167;&#x7247;;
+endif
+
+endif
+
+
+
+
+stop</span><br></pre></td></tr></table></figure>
+</div>
+
+<p>
+&#x751F;&#x6210;&#x7684;&#x7ED3;&#x679C;&#x5982;&#x4E0B;:
+</p>
+
+<div class="figure">
+<p><img src="/2015/03/13/orgmode/48915u3Q.png" alt="48915u3Q.png" width="700px">
+</p>
+</div>
+
+<div class="org-src-container">
+
+<figure class="highlight ruby"><table><tr><td class="code"><pre><span class="line"><span class="string">&quot;This file was last evaluated on test&quot;</span></span><br></pre></td></tr></table></figure>
+</div>
+<pre class="example">
+This file was last evaluated on test
+</pre>
+
+<div class="org-src-container">
+
+<figure class="highlight r"><table><tr><td class="code"><pre><span class="line">words &lt;- tolower(scan(<span class="string">&quot;/Applications/workspace/project/fund/request/&#x7528;&#x6237;&#x671F;&#x671B;.org&quot;</span>, what=<span class="string">&quot;&quot;</span>, na.strings=c(<span class="string">&quot;|&quot;</span>,<span class="string">&quot;:&quot;</span>)))</span><br><span class="line">t(sort(table(words[nchar(words) &gt; <span class="number">3</span>]), decreasing=<span class="literal">TRUE</span>)[<span class="number">1</span>:<span class="number">10</span>])</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2-4" class="outline-3">
+<h3 id="sec-2-4"><span class="section-number-3">2.4</span> &#x7EC4;&#x4EF6;&#x56FE;</h3>
+<div class="outline-text-3" id="text-2-4">
+<div class="org-src-container">
+
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">package &quot;Some Group&quot; {
+  HTTP - [First Component]
+  [Another Component]
+}
+
+node &quot;Other Groups&quot; {
+  FTP - [Second Component]
+  [First Component] --&gt; FTP
+}
+
+cloud {
+  [Example 1]
+}
+
+
+database &quot;MySql&quot; {
+  folder &quot;This is my folder&quot; {
+    [Folder 3]
+  }
+  frame &quot;Foo&quot; {
+    [Frame 4]
+  }
+}
+
+
+[Another Component] --&gt; [Example 1]
+[Example 1] --&gt; [Folder 3]
+[Folder 3] --&gt; [Frame 4]</span><br></pre></td></tr></table></figure>
+</div>
+
+<p>
+&#x751F;&#x6210;&#x7684;&#x56FE;&#x7247;&#x5982;&#x4E0B;:
+</p>
+
+<div class="figure">
+<p><img src="/2015/03/13/orgmode/3349dss.png" alt="3349dss.png" width="500">
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-2-5" class="outline-3">
+<h3 id="sec-2-5"><span class="section-number-3">2.5</span> ditaa</h3>
+<div class="outline-text-3" id="text-2-5">
+<div class="org-src-container">
+
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">+---------+
+| cBLU    |
+|         |
+|    +----+
+|    |cPNK|
+|    |    |
++----+----+</span><br></pre></td></tr></table></figure>
+</div>
+
+<p>
+&#x751F;&#x6210;&#x7684;&#x7ED3;&#x679C;&#x5982;&#x4E0B;:
+</p>
+
+<div class="figure">
+<p><img src="/2015/03/13/orgmode/3349-cR.png" alt="3349-cR.png" width="300px">
+</p>
+</div>
+
+
+
+<div class="org-src-container">
+
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> time</span><br><span class="line">print(<span class="string">&quot;Hello, today&apos;s date is %s&quot;</span> % time.ctime())</span><br><span class="line">print(<span class="string">&apos;Two plus two is&apos;</span>)</span><br></pre></td></tr></table></figure>
+</div>
+
+<div class="org-src-container">
+
+<figure class="highlight lisp"><table><tr><td class="code"><pre><span class="line"><span class="list">(<span class="keyword">defun</span> fibonacci <span class="list">(<span class="keyword">n</span>)</span></span><br><span class="line">  <span class="list">(<span class="keyword">if</span> <span class="list">(<span class="keyword">or</span> <span class="list">(<span class="keyword">=</span> n <span class="number">0</span>)</span> <span class="list">(<span class="keyword">=</span> n <span class="number">1</span>)</span>)</span></span><br><span class="line">      n</span><br><span class="line">    <span class="list">(<span class="keyword">+</span> <span class="list">(<span class="keyword">fibonacci</span> <span class="list">(<span class="keyword">-</span> n <span class="number">1</span>)</span>)</span> <span class="list">(<span class="keyword">fibonacci</span> <span class="list">(<span class="keyword">-</span> n <span class="number">2</span>)</span>)</span>)</span>)</span>)</span></span><br><span class="line"></span><br><span class="line"><span class="list">(<span class="keyword">mapcar</span> <span class="list">(<span class="keyword">lambda</span> <span class="list">(<span class="keyword">row</span>)</span></span><br><span class="line">	  <span class="list">(<span class="keyword">mapcar</span> <span class="quoted">#&apos;fibonacci</span> row)</span>)</span> fib-inputs)</span></span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> &#x4E0B;&#x5212;&#x7EBF;&#x8F6C;&#x4E49;&#x914D;&#x7F6E;&#x4E3A;&#x65E0;&#x6548;</h2>
+<div class="outline-text-2" id="text-3">
+<div class="org-src-container">
+
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">#+OPTIONS: ^:nil</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
+</div><script type="text/javascript" src="/js/share.js?v=0.0.0" async></script><a data-url="http://yoursite.com/orgmode.html" data-id="ciy1cnh94000g260okoh29b9v" class="article-share-link">分享到</a><div class="tags"><a href="/tags/emacs/">emacs</a><a href="/tags/org-mode/">org-mode</a></div><div class="post-nav"><a href="/elispinteractive.html" class="pre">elispinteractive的用法</a><a href="/exception.html" class="next">java中异常机制的总体设计</a></div><div data-thread-key="orgmode.html" data-title="orgmode备忘" data-url="http://yoursite.com/orgmode.html" class="ds-share flat"><div class="ds-share-inline"><ul class="ds-share-icons-16"><li data-toggle="ds-share-icons-more"><a href="javascript:void(0);" class="ds-more">分享到：</a></li><li><a href="javascript:void(0);" data-service="weibo" class="ds-weibo">微博</a></li><li><a href="javascript:void(0);" data-service="qzone" class="ds-qzone">QQ空间</a></li><li><a href="javascript:void(0);" data-service="qqt" class="ds-qqt">腾讯微博</a></li><li><a href="javascript:void(0);" data-service="wechat" class="ds-wechat">微信</a></li></ul><div class="ds-share-icons-more"></div></div></div><div data-thread-key="orgmode.html" data-title="orgmode备忘" data-url="http://yoursite.com/orgmode.html" data-author-key="1" class="ds-thread"></div></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><form action="//www.baidu.com/baidu" method="get" accept-charset="utf-8" target="_blank" class="search-form"><input type="search" name="word" maxlength="20" placeholder="Search"/><input type="hidden" name="si" value="http://yoursite.com"/><input name="tn" type="hidden" value="bds"/><input name="cl" type="hidden" value="3"/><input name="ct" type="hidden" value="2097152"/><input name="s" type="hidden" value="on"/></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/charles/">charles</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/clojure/">clojure</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/druid/">druid</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/emacs/">emacs</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/freemarker/">freemarker</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/hibernate/">hibernate</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/html/">html</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/java/">java</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/javascript/">javascript</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/jenkins/">jenkins</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/joda/">joda</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/linux/">linux</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/mac/">mac</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/maven/">maven</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/mysql/">mysql</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/redis/">redis</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/rz/">rz</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/springmvc/">springmvc</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/sql/">sql</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/加密解密/">加密解密</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/性能监控/">性能监控</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/数据结构/">数据结构</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/算法/">算法</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/网络/">网络</a><span class="category-list-count">1</span></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/mysql常用语句/" style="font-size: 15px;">mysql常用语句</a> <a href="/tags/数据结构/" style="font-size: 15px;">数据结构</a> <a href="/tags/freemarker/" style="font-size: 15px;">freemarker</a> <a href="/tags/java/" style="font-size: 15px;">java</a> <a href="/tags/exception/" style="font-size: 15px;">exception</a> <a href="/tags/elisp/" style="font-size: 15px;">elisp</a> <a href="/tags/interactive/" style="font-size: 15px;">interactive</a> <a href="/tags/emacs/" style="font-size: 15px;">emacs</a> <a href="/tags/linux/" style="font-size: 15px;">linux</a> <a href="/tags/clojure/" style="font-size: 15px;">clojure</a> <a href="/tags/encryption/" style="font-size: 15px;">encryption</a> <a href="/tags/maven/" style="font-size: 15px;">maven</a> <a href="/tags/org-mode/" style="font-size: 15px;">org-mode</a> <a href="/tags/jenkinsclient/" style="font-size: 15px;">jenkinsclient</a> <a href="/tags/性能监控/" style="font-size: 15px;">性能监控</a> <a href="/tags/mac/" style="font-size: 15px;">mac</a> <a href="/tags/vpn/" style="font-size: 15px;">vpn</a> <a href="/tags/orgmode/" style="font-size: 15px;">orgmode</a> <a href="/tags/slider/" style="font-size: 15px;">slider</a> <a href="/tags/leiningen/" style="font-size: 15px;">leiningen</a> <a href="/tags/network/" style="font-size: 15px;">network</a> <a href="/tags/ip/" style="font-size: 15px;">ip</a> <a href="/tags/广播/" style="font-size: 15px;">广播</a> <a href="/tags/路由/" style="font-size: 15px;">路由</a> <a href="/tags/redis/" style="font-size: 15px;">redis</a> <a href="/tags/mail/" style="font-size: 15px;">mail</a> <a href="/tags/mu4e/" style="font-size: 15px;">mu4e</a> <a href="/tags/mysql/" style="font-size: 15px;">mysql</a> <a href="/tags/rz/" style="font-size: 15px;">rz</a> <a href="/tags/时间复杂度/" style="font-size: 15px;">时间复杂度</a> <a href="/tags/空间复杂度/" style="font-size: 15px;">空间复杂度</a> <a href="/tags/html定位/" style="font-size: 15px;">html定位</a> <a href="/tags/hibernate/" style="font-size: 15px;">hibernate</a> <a href="/tags/缓存/" style="font-size: 15px;">缓存</a> <a href="/tags/file/" style="font-size: 15px;">file</a> <a href="/tags/permission/" style="font-size: 15px;">permission</a> <a href="/tags/datatype/" style="font-size: 15px;">datatype</a> <a href="/tags/index/" style="font-size: 15px;">index</a> <a href="/tags/sql优化/" style="font-size: 15px;">sql优化</a> <a href="/tags/sql/" style="font-size: 15px;">sql</a> <a href="/tags/wirelessnetwork/" style="font-size: 15px;">wirelessnetwork</a> <a href="/tags/javascript/" style="font-size: 15px;">javascript</a> <a href="/tags/ajax/" style="font-size: 15px;">ajax</a> <a href="/tags/charles/" style="font-size: 15px;">charles</a> <a href="/tags/dom/" style="font-size: 15px;">dom</a> <a href="/tags/bom/" style="font-size: 15px;">bom</a> <a href="/tags/function/" style="font-size: 15px;">function</a> <a href="/tags/class/" style="font-size: 15px;">class</a> <a href="/tags/springmvc/" style="font-size: 15px;">springmvc</a> <a href="/tags/queue/" style="font-size: 15px;">queue</a> <a href="/tags/druid/" style="font-size: 15px;">druid</a> <a href="/tags/db/" style="font-size: 15px;">db</a> <a href="/tags/joda/" style="font-size: 15px;">joda</a> <a href="/tags/javaweb/" style="font-size: 15px;">javaweb</a> <a href="/tags/记住我/" style="font-size: 15px;">记住我</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最新文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/linux服务器问题集.html">linux服务器问题集</a></li><li class="post-list-item"><a class="post-list-link" href="/linux性能监控.html">linux性能监控</a></li><li class="post-list-item"><a class="post-list-link" href="/mac系统下自动重连vpn脚本.html">mac系统下自动重连vpn脚本</a></li><li class="post-list-item"><a class="post-list-link" href="/性能测试.html">性能测试</a></li><li class="post-list-item"><a class="post-list-link" href="/emacs-mail.html">emacs-mail</a></li><li class="post-list-item"><a class="post-list-link" href="/并发测试.html">并发测试数据生成</a></li><li class="post-list-item"><a class="post-list-link" href="/leiningen.html">leiningen</a></li><li class="post-list-item"><a class="post-list-link" href="/elisp.html">elisp基础知识</a></li><li class="post-list-item"><a class="post-list-link" href="/clojure.html">clojure基础知识</a></li><li class="post-list-item"><a class="post-list-link" href="/elispinteractive.html">elispinteractive的用法</a></li></ul></div><div class="widget"><div class="comments-title"><i class="fa fa-comment-o"> 最近评论</i></div><div data-num-items="5" data-show-avatars="0" data-show-time="1" data-show-admin="0" data-excerpt-length="32" data-show-title="1" class="ds-recent-comments"></div></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> 友情链接</i></div></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">© <a href="/." rel="nofollow">夏普牛的博客.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a id="rocket" href="#top" class="show"></a><script type="text/javascript" src="/js/totop.js?v=0.0.0" async></script><script type="text/javascript" src="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.pack.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=0.0.0" async></script><link rel="stylesheet" type="text/css" href="/css/jquery.fancybox.css?v=0.0.0"><script>var duoshuoQuery = {short_name:'xiapun'};
+(function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0]
+        || document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+</script><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?8fb73a1c52a8b9a892b48315c9500f78";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+  })();
+</script><script type="text/javascript" src="/js/codeblock-resizer.js?v=0.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=0.0.0"></script></div></body></html><script>(function(){
+var bp = document.createElement('script');
+var curProtocol = window.location.protocol.split(':')[0];
+if (curProtocol === 'https') {
+bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+}
+else {
+bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+}
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(bp, s);
+})();</script>
