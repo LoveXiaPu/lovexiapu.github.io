@@ -17,8 +17,8 @@
   
   <entry>
     <title>linux服务器问题集</title>
-    <link href="http://yoursite.com/linux%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%97%AE%E9%A2%98%E9%9B%86.html"/>
-    <id>http://yoursite.com/linux服务器问题集.html</id>
+    <link href="http://yoursite.com/2016/08/30/linux%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%97%AE%E9%A2%98%E9%9B%86/"/>
+    <id>http://yoursite.com/2016/08/30/linux服务器问题集/</id>
     <published>2016-08-30T00:00:00.000Z</published>
     <updated>2017-01-12T07:11:11.000Z</updated>
     
@@ -51,8 +51,8 @@
   
   <entry>
     <title>linux性能监控</title>
-    <link href="http://yoursite.com/linux%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7.html"/>
-    <id>http://yoursite.com/linux性能监控.html</id>
+    <link href="http://yoursite.com/2015/09/16/linux%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/"/>
+    <id>http://yoursite.com/2015/09/16/linux性能监控/</id>
     <published>2015-09-16T00:00:00.000Z</published>
     <updated>2017-01-12T06:35:51.000Z</updated>
     
@@ -354,8 +354,8 @@ avgqu-sz &#x957F;&#x5EA6;&#x8D8A;&#x5C0F;&#x8D8A;&#x597D;
   
   <entry>
     <title>mac系统下自动重连vpn脚本</title>
-    <link href="http://yoursite.com/mac%E7%B3%BB%E7%BB%9F%E4%B8%8B%E8%87%AA%E5%8A%A8%E9%87%8D%E8%BF%9Evpn%E8%84%9A%E6%9C%AC.html"/>
-    <id>http://yoursite.com/mac系统下自动重连vpn脚本.html</id>
+    <link href="http://yoursite.com/2015/08/01/mac%E7%B3%BB%E7%BB%9F%E4%B8%8B%E8%87%AA%E5%8A%A8%E9%87%8D%E8%BF%9Evpn%E8%84%9A%E6%9C%AC/"/>
+    <id>http://yoursite.com/2015/08/01/mac系统下自动重连vpn脚本/</id>
     <published>2015-08-01T00:00:00.000Z</published>
     <updated>2017-01-12T06:33:27.000Z</updated>
     
@@ -388,8 +388,8 @@ avgqu-sz &#x957F;&#x5EA6;&#x8D8A;&#x5C0F;&#x8D8A;&#x597D;
   
   <entry>
     <title>性能测试</title>
-    <link href="http://yoursite.com/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95.html"/>
-    <id>http://yoursite.com/性能测试.html</id>
+    <link href="http://yoursite.com/2015/07/18/%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/"/>
+    <id>http://yoursite.com/2015/07/18/性能测试/</id>
     <published>2015-07-18T00:00:00.000Z</published>
     <updated>2017-01-12T06:28:20.000Z</updated>
     
@@ -447,8 +447,8 @@ avgqu-sz &#x957F;&#x5EA6;&#x8D8A;&#x5C0F;&#x8D8A;&#x597D;
   
   <entry>
     <title>emacs-mail</title>
-    <link href="http://yoursite.com/emacs-mail.html"/>
-    <id>http://yoursite.com/emacs-mail.html</id>
+    <link href="http://yoursite.com/2015/06/30/emacs-mail/"/>
+    <id>http://yoursite.com/2015/06/30/emacs-mail/</id>
     <published>2015-06-30T00:00:00.000Z</published>
     <updated>2017-01-12T06:24:14.000Z</updated>
     
@@ -567,8 +567,8 @@ emacs&#x5185;&#x7F6E;&#x7684; smtpmail &#x5728;&#x53D1;&#x9001;&#x90AE;&#x4EF6;&
   
   <entry>
     <title>并发测试数据生成</title>
-    <link href="http://yoursite.com/%E5%B9%B6%E5%8F%91%E6%B5%8B%E8%AF%95.html"/>
-    <id>http://yoursite.com/并发测试.html</id>
+    <link href="http://yoursite.com/2015/06/12/%E5%B9%B6%E5%8F%91%E6%B5%8B%E8%AF%95/"/>
+    <id>http://yoursite.com/2015/06/12/并发测试/</id>
     <published>2015-06-12T00:00:00.000Z</published>
     <updated>2017-01-12T06:27:11.000Z</updated>
     
@@ -616,8 +616,8 @@ emacs&#x5185;&#x7F6E;&#x7684; smtpmail &#x5728;&#x53D1;&#x9001;&#x90AE;&#x4EF6;&
   
   <entry>
     <title>leiningen</title>
-    <link href="http://yoursite.com/leiningen.html"/>
-    <id>http://yoursite.com/leiningen.html</id>
+    <link href="http://yoursite.com/2015/05/19/leiningen/"/>
+    <id>http://yoursite.com/2015/05/19/leiningen/</id>
     <published>2015-05-19T00:00:00.000Z</published>
     <updated>2017-01-12T06:31:27.000Z</updated>
     
@@ -789,8 +789,8 @@ emacs&#x5185;&#x7F6E;&#x7684; smtpmail &#x5728;&#x53D1;&#x9001;&#x90AE;&#x4EF6;&
   
   <entry>
     <title>elisp基础知识</title>
-    <link href="http://yoursite.com/elisp.html"/>
-    <id>http://yoursite.com/elisp.html</id>
+    <link href="http://yoursite.com/2015/05/08/elisp/"/>
+    <id>http://yoursite.com/2015/05/08/elisp/</id>
     <published>2015-05-08T08:04:09.000Z</published>
     <updated>2017-01-12T06:49:50.000Z</updated>
     
@@ -1288,8 +1288,8 @@ Pacpkage authors should use this technique to make sure that dependencies are lo
   
   <entry>
     <title>clojure基础知识</title>
-    <link href="http://yoursite.com/clojure.html"/>
-    <id>http://yoursite.com/clojure.html</id>
+    <link href="http://yoursite.com/2015/04/20/clojure/"/>
+    <id>http://yoursite.com/2015/04/20/clojure/</id>
     <published>2015-04-20T10:44:29.000Z</published>
     <updated>2017-01-17T09:21:03.000Z</updated>
     
@@ -1395,8 +1395,8 @@ Pacpkage authors should use this technique to make sure that dependencies are lo
   
   <entry>
     <title>elispinteractive的用法</title>
-    <link href="http://yoursite.com/elispinteractive.html"/>
-    <id>http://yoursite.com/elispinteractive.html</id>
+    <link href="http://yoursite.com/2015/04/02/elispinteractive/"/>
+    <id>http://yoursite.com/2015/04/02/elispinteractive/</id>
     <published>2015-04-02T11:15:57.000Z</published>
     <updated>2017-01-12T06:48:53.000Z</updated>
     
@@ -1544,8 +1544,8 @@ Pacpkage authors should use this technique to make sure that dependencies are lo
   
   <entry>
     <title>orgmode备忘</title>
-    <link href="http://yoursite.com/orgmode.html"/>
-    <id>http://yoursite.com/orgmode.html</id>
+    <link href="http://yoursite.com/2015/03/13/orgmode/"/>
+    <id>http://yoursite.com/2015/03/13/orgmode/</id>
     <published>2015-03-13T08:04:09.000Z</published>
     <updated>2017-01-12T06:54:06.000Z</updated>
     
@@ -1894,8 +1894,8 @@ database &quot;MySql&quot; {
   
   <entry>
     <title>java中异常机制的总体设计</title>
-    <link href="http://yoursite.com/exception.html"/>
-    <id>http://yoursite.com/exception.html</id>
+    <link href="http://yoursite.com/2014/08/12/exception/"/>
+    <id>http://yoursite.com/2014/08/12/exception/</id>
     <published>2014-08-12T10:47:49.000Z</published>
     <updated>2017-01-17T09:21:23.000Z</updated>
     
@@ -2266,8 +2266,8 @@ h   + &#x5982;&#x679C;&#x6709;&#x5BA2;&#x6237;&#x7AEF;&#xFF0C;&#x5E94;&#x8BE5;&#
   
   <entry>
     <title>Jenkins cli使用</title>
-    <link href="http://yoursite.com/Jenkins.html"/>
-    <id>http://yoursite.com/Jenkins.html</id>
+    <link href="http://yoursite.com/2014/06/02/Jenkins/"/>
+    <id>http://yoursite.com/2014/06/02/Jenkins/</id>
     <published>2014-06-02T00:00:00.000Z</published>
     <updated>2017-01-12T09:53:38.000Z</updated>
     
@@ -2342,8 +2342,8 @@ h   + &#x5982;&#x679C;&#x6709;&#x5BA2;&#x6237;&#x7AEF;&#xFF0C;&#x5E94;&#x8BE5;&#
   
   <entry>
     <title>org生成slider</title>
-    <link href="http://yoursite.com/org%E7%94%9F%E6%88%90slider.html"/>
-    <id>http://yoursite.com/org生成slider.html</id>
+    <link href="http://yoursite.com/2014/05/15/org%E7%94%9F%E6%88%90slider/"/>
+    <id>http://yoursite.com/2014/05/15/org生成slider/</id>
     <published>2014-05-15T00:00:00.000Z</published>
     <updated>2017-01-12T06:32:21.000Z</updated>
     
@@ -2378,8 +2378,8 @@ h   + &#x5982;&#x679C;&#x6709;&#x5BA2;&#x6237;&#x7AEF;&#xFF0C;&#x5E94;&#x8BE5;&#
   
   <entry>
     <title>charles使用问题集</title>
-    <link href="http://yoursite.com/charles%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98%E9%9B%86.html"/>
-    <id>http://yoursite.com/charles使用问题集.html</id>
+    <link href="http://yoursite.com/2014/05/07/charles%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98%E9%9B%86/"/>
+    <id>http://yoursite.com/2014/05/07/charles使用问题集/</id>
     <published>2014-05-07T00:00:00.000Z</published>
     <updated>2017-01-12T06:42:53.000Z</updated>
     
@@ -2415,8 +2415,8 @@ h   + &#x5982;&#x679C;&#x6709;&#x5BA2;&#x6237;&#x7AEF;&#xFF0C;&#x5E94;&#x8BE5;&#
   
   <entry>
     <title>加密解密基础</title>
-    <link href="http://yoursite.com/encryption.html"/>
-    <id>http://yoursite.com/encryption.html</id>
+    <link href="http://yoursite.com/2014/04/03/encryption/"/>
+    <id>http://yoursite.com/2014/04/03/encryption/</id>
     <published>2014-04-03T10:35:01.000Z</published>
     <updated>2017-01-05T09:06:42.000Z</updated>
     
@@ -2688,8 +2688,8 @@ h   + &#x5982;&#x679C;&#x6709;&#x5BA2;&#x6237;&#x7AEF;&#xFF0C;&#x5E94;&#x8BE5;&#
   
   <entry>
     <title>redis常用命令</title>
-    <link href="http://yoursite.com/redis.html"/>
-    <id>http://yoursite.com/redis.html</id>
+    <link href="http://yoursite.com/2014/03/29/redis/"/>
+    <id>http://yoursite.com/2014/03/29/redis/</id>
     <published>2014-03-29T00:00:00.000Z</published>
     <updated>2017-01-12T06:29:03.000Z</updated>
     
@@ -2758,8 +2758,8 @@ h   + &#x5982;&#x679C;&#x6709;&#x5BA2;&#x6237;&#x7AEF;&#xFF0C;&#x5E94;&#x8BE5;&#
   
   <entry>
     <title>rz</title>
-    <link href="http://yoursite.com/rz.html"/>
-    <id>http://yoursite.com/rz.html</id>
+    <link href="http://yoursite.com/2013/10/11/rz/"/>
+    <id>http://yoursite.com/2013/10/11/rz/</id>
     <published>2013-10-11T00:00:00.000Z</published>
     <updated>2017-01-12T06:30:20.000Z</updated>
     
@@ -2807,8 +2807,8 @@ zmodem transfer canceled by remote side
   
   <entry>
     <title>freemarker</title>
-    <link href="http://yoursite.com/freemarker.html"/>
-    <id>http://yoursite.com/freemarker.html</id>
+    <link href="http://yoursite.com/2013/06/18/freemarker/"/>
+    <id>http://yoursite.com/2013/06/18/freemarker/</id>
     <published>2013-06-18T10:28:19.000Z</published>
     <updated>2017-01-12T08:40:04.000Z</updated>
     
@@ -3086,8 +3086,8 @@ Pythons are free today!
   
   <entry>
     <title>sql优化</title>
-    <link href="http://yoursite.com/sql%E4%BC%98%E5%8C%96.html"/>
-    <id>http://yoursite.com/sql优化.html</id>
+    <link href="http://yoursite.com/2013/05/11/sql%E4%BC%98%E5%8C%96/"/>
+    <id>http://yoursite.com/2013/05/11/sql优化/</id>
     <published>2013-05-11T00:00:00.000Z</published>
     <updated>2017-01-12T05:49:01.000Z</updated>
     
