@@ -4,6 +4,30 @@
 
     
   <url>
+    <loc>http://yoursite.com/2015/06/30/emacs-mail/</loc>
+    <lastmod>2017-05-15T08:03:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>emacs-mail</title>
+        <pubTime>2015-06-30T00:00:00.000Z</pubTime>
+        
+        <tag>emacs</tag>
+         
+        <tag>mail</tag>
+         
+        <tag>mu4e</tag>
+         
+         
+           
+             
+              <breadCrumb title="emacs" url="http://yoursite.com/categories/emacs/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2012/04/22/linux/</loc>
     <lastmod>2017-04-11T02:48:03.000Z</lastmod>
     <data>
@@ -738,30 +762,6 @@
         
          
            
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2015/06/30/emacs-mail/</loc>
-    <lastmod>2017-01-12T06:24:14.000Z</lastmod>
-    <data>
-        <display>
-        <title>emacs-mail</title>
-        <pubTime>2015-06-30T00:00:00.000Z</pubTime>
-        
-        <tag>emacs</tag>
-         
-        <tag>mail</tag>
-         
-        <tag>mu4e</tag>
-         
-         
-           
-             
-              <breadCrumb title="emacs" url="http://yoursite.com/categories/emacs/"/>
-          
         </display>
     </data>
     </url>

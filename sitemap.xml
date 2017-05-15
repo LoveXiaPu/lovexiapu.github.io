@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2015/06/30/emacs-mail/</loc>
+    
+    <lastmod>2017-05-15T08:03:06.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2012/04/22/linux/</loc>
     
     <lastmod>2017-04-11T02:48:03.000Z</lastmod>
@@ -243,13 +250,6 @@
     <loc>http://yoursite.com/2015/06/12/%E5%B9%B6%E5%8F%91%E6%B5%8B%E8%AF%95/</loc>
     
     <lastmod>2017-01-12T06:27:11.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2015/06/30/emacs-mail/</loc>
-    
-    <lastmod>2017-01-12T06:24:14.000Z</lastmod>
     
   </url>
   

@@ -903,7 +903,7 @@ avgqu-sz &#x957F;&#x5EA6;&#x8D8A;&#x5C0F;&#x8D8A;&#x597D;
     <link href="http://yoursite.com/2015/06/30/emacs-mail/"/>
     <id>http://yoursite.com/2015/06/30/emacs-mail/</id>
     <published>2015-06-30T00:00:00.000Z</published>
-    <updated>2017-01-12T06:24:14.000Z</updated>
+    <updated>2017-05-15T08:03:06.000Z</updated>
     
     <content type="html"><![CDATA[
 
@@ -991,6 +991,28 @@ emacs&#x5185;&#x7F6E;&#x7684; smtpmail &#x5728;&#x53D1;&#x9001;&#x90AE;&#x4EF6;&
 <div class="org-src-container">
 
 <figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~/workspace/docs/studynote/emacs/mail</span><br><span class="line"><span class="comment">#&#x53D1;&#x9001;&#x90AE;&#x4EF6;&#x65F6;&#x4F7F;&#x7528;&#x7684;&#x8D26;&#x53F7;&#x76F8;&#x5173;&#x4FE1;&#x606F;&#x914D;&#x7F6E;</span></span><br><span class="line">cp authinfo ~/.authinfo</span><br></pre></td></tr></table></figure>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-5" class="outline-2">
+<h2 id="sec-5"><span class="section-number-2">5</span> &#x5E38;&#x89C1;&#x9519;&#x8BEF;</h2>
+<div class="outline-text-2" id="text-5">
+</div><div id="outline-container-sec-5-1" class="outline-3">
+<h3 id="sec-5-1"><span class="section-number-3">5.1</span> &#x63D0;&#x793A; slave Inbox cannot be opened</h3>
+<div class="outline-text-3" id="text-5-1">
+<p>
+&#x8FD9;&#x79CD;&#x60C5;&#x51B5;&#x4E00;&#x822C;&#x662F;&#x5728;&#x524D;&#x4E00;&#x6B21;&#x914D;&#x7F6E;&#x4E0B;&#x5DF2;&#x7ECF;&#x4F7F;&#x7528;mbsync&#x8FDB;&#x884C;&#x540C;&#x6B65;&#xFF0C;&#x4E4B;&#x540E;&#x66F4;&#x6539;&#x4E86;&#x914D;&#x7F6E;&#xFF0C;&#x518D;&#x6B21;&#x540C;&#x6B65;&#x65F6;&#x51FA;&#x73B0;&#x7684;&#x9519;&#x8BEF;&#x3002;
+</p>
+</div>
+
+<div id="outline-container-sec-5-1-1" class="outline-4">
+<h4 id="sec-5-1-1"><span class="section-number-4">5.1.1</span> &#x89E3;&#x51B3;&#x529E;&#x6CD5;</h4>
+<div class="outline-text-4" id="text-5-1-1">
+<p>
+&#x5220;&#x9664; \~/.mbsync &#x76EE;&#x5F55;&#x4E0B;&#x7684;&#x6307;&#x5B9A;&#x7684;&#x6587;&#x4EF6;&#xFF0C;&#x5982;  <code>:outlook-remote:INBOX_:outlook-local:INBOX</code>
+</p>
+</div>
 </div>
 </div>
 </div>
